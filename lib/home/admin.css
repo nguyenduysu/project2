@@ -1,0 +1,984 @@
+@media (min-width: 320px) {
+*{}
+
+.userExists {
+    text-align:  center;
+    color:  red;
+    font-size:  12px;
+    position:  absolute;
+    top: 420px;
+    left: 15px;
+}
+
+
+.dKyAdmin {
+    width: 100%;
+    margin:  auto;
+}
+
+.dKyAdmin .title {
+    background: #30a5ff;
+    text-align:  center;
+    padding:  5px;
+    font-size:  15px;
+    color: white;
+    margin-bottom: 10px;
+}
+body{
+    overflow-x: hidden;
+}
+.loginFalse {
+    width:  100%;
+    height:  40px;
+    line-height:  40px;
+    padding-left:  20px;
+    background: #b12121;
+    color: white;
+    position:  absolute;
+    top: 0;
+    transition: 0.4s;
+}
+.downLogin{
+    top: 0;
+    opacity: 1;
+    visibility: visible;
+    transition: 0.4s;
+}
+.login .content {
+    width:  320px;
+    margin:  auto;
+    background: #fff;
+    padding: 18px;
+}
+
+.login .title {
+    width: 100%;
+}
+
+.login {
+    background: url('/shop/image/logo/bg.jpeg');
+    padding-top: 50px;
+    width:  100%;
+    height: 100%;
+    background-size:  cover;
+}
+
+html,body {
+    width:  100%;
+    height: 100%;
+}
+
+.login .title img {
+    width: 100px;
+    margin-bottom: 10px;
+    margin-left: 33%;
+}
+
+.detail {
+    font-size: 9px;
+}
+
+/*.bill .inforCustomer {
+    width: 125px;
+    display: block;
+    border: none;
+    border-top: 1px solid #dddddd;
+}*/
+
+.bill .listBill {
+    font-size: 6px;
+    margin-right: 8px;
+}
+
+.bill .listBill button {
+    font-size: 6px;
+    margin-left:  0;
+    padding-left:  0;
+    padding-right: 0;
+}
+
+.bill a.btn.btn-danger {
+    background: none;
+    color:  red;
+    border: 1px solid red;
+    margin-left: 42px;
+}
+
+a.btn.btn-danger {
+}
+
+.bill a.btn.btn-danger {
+    margin-left:  0;
+    font-size: 6px;
+}
+
+.bill a.btn.btn-danger:hover {
+    background:  red;
+    color: white;
+    transition:  0.2s;
+}
+
+.bill button.change.btn.btn-info {
+    background:  none;
+    color: #e17d14;
+    margin-bottom: 5px;
+    border: 1px solid #e17d14;
+}
+
+.bill button.change.btn.btn-info:hover {
+    background: #e2821c;
+    color: white;
+    transition:  0.2s;
+}
+.hThi{
+    visibility: visible;
+    opacity: 1;
+}
+.kHThi{
+    visibility: hidden;
+    opacity: 0;
+}
+.editProduct {
+    width: 95%;
+    margin-left: 5px;
+    margin-bottom: 20px;
+}
+
+.addProduct {
+    margin-left:  5px;
+    margin-bottom: 20px;
+}
+.location .breadcrumb a{
+    text-decoration: none;
+}
+.editCategory button.btn.btn-primary {
+    margin-left: 36%;
+    margin-bottom:  20px;
+}
+
+.editCategory input.form-control {
+    width:  50%;
+    margin:  auto;
+    margin-top:  12px;
+}
+
+.editCategory .title ,.editProduct .title,.bill .title,.detailsOrder .title{
+    background:  #D9EDF7;
+    height:  40px;
+    line-height:  40px;
+    padding-left:  20px;
+    font-size:  18px;
+}
+
+.detailsOrder .title {
+    font-size: 16px;
+}
+
+.bill .title {
+    margin-bottom:  20px;
+}
+
+.editCategory button.btn.btn-primary {
+    background:  none;
+    color: #6299c3;
+    border: 1px solid #7b99c7;
+}
+
+.editCategory button.btn.btn-primary:hover {
+    background: #62b5de;
+    color: white;
+}
+
+.phantrang div {display:  inline;}
+
+.phantrang a {
+    display: inline-block;
+    width:  20px;
+    height:  20px;
+    line-height:  20px;
+    color: #30a5ff;
+    border: 1px solid #30a5ff;
+    margin-right: 10px;
+    text-decoration:  none;
+}
+
+.phantrang a:hover {
+    background: #30a5ff;
+    color: white;
+}
+
+.phantrang b {
+    width:  20px;
+    height:  20px;
+    border: 1px solid #30a5ff;
+    display:  inline-block;
+    line-height:  20px;
+    margin-right:  10px;
+}
+
+.phantrang b:hover {
+    background: #30a5ff;
+    color: white;
+}
+
+.phantrang {
+    text-align:  center;
+    margin-bottom: 20px;
+}
+
+.row.listProduct {
+    font-size: 9px;
+}
+
+.phantrang p {
+    display: inline-block;
+}
+
+.type_display .typeProduct {
+    width: 55%;
+    padding-top:  10px;
+    margin-bottom:  10px;
+    float: left;
+}
+
+.type_display .tieude {
+    width: 45%;
+    font-size: 18px;
+    padding-top: 10px;
+    margin-bottom:  10px;
+    float: left;
+}
+
+.showProduct .addCategory {
+    background: #30A5FF;
+    width: 40%;
+    margin-left: 10%;
+    font-size: 14px;
+}
+
+.showProduct .title ,.addProduct .title {
+    background: #D9EDF7;
+    height:  40px;
+    line-height:  40px;
+    margin-bottom: 10px;
+}
+
+.addProduct .title {
+    padding-left: 20px;
+}
+
+.showProduct .title a {
+    color: white;
+    text-decoration:  none;
+}
+
+.addCategoryform button.btn.btn-primary.btn-block {
+    width: 130px;
+    margin: auto;
+    background:  none;
+    color: #30a5ff;
+    font-size: 15px;
+    border: 1px solid #30a5ff;
+    margin-bottom: 20px;
+}
+
+.addCategoryform button.btn.btn-primary.btn-block:hover {
+    background: #30a5ff;
+    color: white;
+}
+
+.addCategory input.form-control {
+    width: 248px;
+    margin:  auto;
+}
+
+.addCategory .title {
+    background: #D9EDF7;
+    height:  40px;
+    line-height:  40px;
+    font-size:  15px;
+    font-weight:  bold;
+    width:  246px;
+    margin:  auto;
+    margin-bottom:  10px;
+    border-radius:  5px;
+    text-align:  center;
+}
+
+i.glyphicon.glyphicon-remove.btn-danger.xoa {
+    background:  none;
+    color:  red;
+    border:  1px solid red;
+    padding:  2px 5px;
+    border-radius:  3px;
+}
+
+.bill i.glyphicon.glyphicon-remove.btn-danger.xoa {
+    cursor:  pointer;
+}
+
+i#removeBill {}
+
+i.glyphicon.glyphicon-remove.btn-danger.xoa:hover {
+    background:  red;
+    color: white;
+    transition:  0.2s;
+}
+
+i.glyphicon.glyphicon-pencil.btn-primary.sua {
+    background:  none;
+    color: #30a5ff;
+    border: 1px solid #30a5ff;
+    padding: 2px 5px;
+    border-radius: 4px;
+    margin-right:  10px;
+}
+
+.bill i.glyphicon.glyphicon-pencil.btn-primary.sua {
+    cursor:  pointer;
+}
+
+i.glyphicon.glyphicon-pencil.btn-primary.sua:hover {
+    background: #30a5ff;
+    color: white;
+    transition:  0.3s;
+}
+
+.contentCategory .nameTitle {
+    padding-top:  9px;
+    font-size:  16px;
+    font-weight:  bold;
+}
+
+.contentCategory a {
+    text-decoration:  none;
+}
+
+.contentCategory .addCategory .icon {
+    color: white;
+    font-size: 17px;
+    border-radius:  50%;
+    width: 30px;
+    height:  30px;
+    line-height: 30px;
+    border: 1px solid white;
+    margin-right:  10px;
+}
+
+i.fas.fa-plus-square.icon {
+    padding-left: 6px;
+}
+
+.showProduct .title i.fas.fa-plus-square.icon {
+    font-size: 18px;
+    margin-right:  10px;
+}
+
+.contentCategory .addCategory {
+    background: #30a5ff;
+    width: 150px;
+    padding: 5px;
+    border-radius: 5px;
+    float:  right;
+}
+
+.contentCategory .addCategory a {
+    color: white;
+}
+
+.contentCategory .title {
+    background: #D9EDF7;
+    font-size: 15px;
+    margin-bottom:  10px;
+    height:  40px;
+}
+
+.location  .breadcrumb {
+    padding: 0;
+    margin-top: 5px;
+    background:  none;
+}
+
+.addCategory .location .breadcrumb a {
+    text-decoration:  none;
+}
+
+.sidebar {
+    box-shadow: 2px 2px 1px grey;
+}
+
+.sidebar .icon {color: #30A5FF;position:  absolute;top: 6px;left: 16px;font-size: 18px;}
+
+.reports {margin-left: 18%;}
+
+.report .xam {
+    background: gray;
+    margin:  0;
+    position:  absolute;
+    width: 100%;
+    left: 0;
+    border-radius: 0 0 15px 15px;
+    height: 29px;
+    padding-top: 3px;
+    transition:  0.4s;
+    visibility:  hidden;
+    opacity:  0;
+    top: 0;
+}
+
+.report:hover .xam {
+    opacity:  1;
+    visibility:  visible;
+    top: 71px;
+}
+
+.report .xam a {
+    text-decoration:  none;
+    color: white;
+}
+
+.reports .report {
+    background: #28c161;
+    width: 80%;
+    text-align:  center;
+    border-radius:  15px;
+    color: white;
+    position:  relative;
+    height: 100px;
+    margin-bottom: 10px;
+}
+
+.report.member {
+    background:  #DD4B39;
+}
+
+.report.product {
+    background: #00C0EF;
+}
+
+.report.order {
+    background: #F39C12;
+}
+
+.reports .soluong {
+    font-size:  20px;
+    padding-top: 2px;
+}
+
+.sidebar > ul > li {
+    list-style:  none;
+    padding: 6px;
+    padding-left: 40px;
+    position:  relative;
+}
+
+.sidebar #home {
+    background: #30A5FF;
+}
+
+.sidebar #home a {
+    color: white;
+}
+
+.sidebar #home .icon {
+    color: white;
+}
+
+.sidebar #home a {}
+
+.sidebar > ul > li:hover {
+    background:#E9ECF2;
+}
+.sidebar > ul > li a {
+    text-decoration:  none;
+    color: #30A5FF;
+}
+
+.sidebar > ul {
+    padding-left: 0;
+}
+.menu_admin a.navbar-brand img {
+    width: 70px;
+}
+
+
+.menu_admin ul.nav.navbar-nav.navbar-right a {
+    color: #202529;
+}
+
+.menu_admin nav.navbar.navbar-default {
+    background: #368a86;
+    margin-bottom:  0;
+}
+
+.menu_admin {
+}   
+}
+@media all and (min-width: 550px) {
+*{
+}
+
+.userExists {
+    top: 155px;
+    left: 224px;
+}
+
+.dKyAdmin {
+    position:  absolute;
+    top: 53px;
+    left: 225px;
+    width: 58%;
+}
+
+.login .title img {
+    margin-left: 42%;
+}
+
+.billEmpty {
+    position:  absolute;
+    top: 52px;
+    left:  195px;
+    margin-left: 5%;
+    width: 60%;
+}
+
+.detail {
+    font-size: 11px;
+}
+
+.detailsOrder {
+    position:  absolute;
+    top:  10%;
+    left: 195px;
+}
+
+.bill {
+    position:  absolute;
+    top: 11%;
+    left: 196px;
+}
+
+.bill .listBill {
+    font-size: 7px;
+}
+
+.bill .title {
+    width: 105%;
+}
+
+.editProduct {
+    position:  absolute;
+    top:  9%;
+    left: 193px;
+    width: 62%;
+    margin-left: 10px;
+}
+
+.addProduct {
+    position:  absolute;
+    top:  9%;
+    left: 193px;
+}
+
+.editCategory input.form-control {
+    width: 100%;
+}
+
+.editCategory .title {
+}
+
+.editCategory {
+    position:  absolute;
+    top: 9%;
+    left: 269px;
+}
+
+.showProduct {
+    position:  absolute;
+    top: 9%;
+    left: 195px;
+}
+
+.addCategory.form_add {
+    top: 9%;
+}
+
+.content {
+    width: 103%;
+}
+
+.addCategory .title {
+    margin-left: -30%;
+}
+
+.addCategory .location .breadcrumb {
+    margin-left: -48%;
+}
+
+.addCategoryform button.btn.btn-primary.btn-block {
+    margin-left: 0;
+}
+
+.addCategoryform button.btn.btn-primary.btn-block {
+}
+
+.addCategoryform input.form-control {
+    margin-left: -22%;
+    margin-top: 4px;
+}
+
+.addCategory {
+     position: absolute;
+     left: 57%;
+}
+
+.contentCategory {
+    position:  absolute;
+    top: 55px;
+    left: 36%;
+}
+.sidebar {
+    width: 195px;
+    box-shadow: 1px 1px 1px grey;
+}
+
+.reports .report {
+    width: 35%;
+}
+
+.reports .report {
+    margin-right: 15px;
+}
+
+.reports {
+    position:  relative;
+    top: -554px;
+    left: 20%;
+}
+
+body {
+    /*overflow-x:  hidden;*/
+}
+
+html,body {
+    height:  100%;
+}
+
+.sidebar {
+    height: 100%;
+}   
+}
+@media all and (min-width: 767px) {
+*{}
+
+.navbar-nav>li>.dropdown-menu {
+    right:  -12px;
+    width: 174px;
+}
+
+.detail, .detailPrice, .detailsOrder .title.s {
+    width: 74%;
+    margin-left: 1%;
+    font-size: 15px;
+}
+
+.detailsOrder .title {
+    width: 77%;
+    margin-left: -8px;
+    margin-bottom: 20px;
+}
+
+.detailsOrder {
+}
+
+.bill .title {
+    width: 75%;
+    margin-left: -4px;
+}
+
+.bill .listBill {font-size: 14px;width: 72%;margin-left: 1%;}
+
+.editProduct button.btn.btn-primary.btn-block {
+    width: 72%;
+}
+
+.editProduct select.form-control {
+    width: 72%;
+}
+
+.editProduct input.form-control {
+    width: 72%;
+}
+
+.editProduct {
+}
+
+.addProduct .title {
+    width: 74%;
+}
+
+.addProduct input.form-control {
+    width: 74%;
+}
+
+.addProduct .form-control {
+    width: 74%;
+}
+
+.editCategory button.btn.btn-primary {
+    margin-left: 153px;
+}
+
+.editCategory input.form-control {
+    width:  30%;
+    margin-left: 84px;
+}
+
+.editCategory .title {
+    margin-left: -65px;
+    width: 84%;
+}
+
+.phantrang a,.phantrang b {
+    width:  30px;
+    height:  30px;
+    line-height:  30px;
+}
+
+.row.listProduct {
+    width: 78%;
+    font-size: 12px;
+}
+
+.showProduct .type_display {
+    width: 80%;
+}
+
+.showProduct .title {
+    width: 79%;
+}
+
+.showProduct {
+}
+
+.addCategory .location .breadcrumb {
+    margin-left: -2%;
+}
+
+.addCategoryform button.btn.btn-primary.btn-block {
+    margin-left: 24%;
+}
+
+.addCategory input.form-control {
+    margin-left: 11%;
+    width: 360px;
+}
+
+.addCategory .title {margin-left: 10%;width: 360px;}
+
+.addCategory {
+    /* left: 54%; */
+    float:  right;
+    position:  unset;
+}
+
+.addCategory.form_add {
+    position:  absolute;
+    left: 27%;
+    top: 9%;
+}
+
+.contentCategory .content {
+    width: 67%;
+}
+
+.contentCategory .addCategory {
+    float: right;
+    /* position:  absolute; */
+    /* left: 53%; */
+}
+
+.contentCategory .title {
+    width: 70%;
+    height: 40px;
+}
+
+.contentCategory {
+    left: 232px;
+}
+/*.sidebar {
+    width: 185px;
+}*/
+
+.reports {left: 6%;}
+
+.reports .report {
+    width: 18%;
+}   
+}
+@media all and (min-width: 992px) {
+*{}
+
+.detail, .detailPrice {
+}
+
+.bill .title {
+    width: 82%;
+}
+
+.bill .listBill {
+    width: 80%;
+}
+
+.showProduct img {
+    width: 100px;
+}
+
+.editCategory button.btn.btn-primary {
+    margin-left: 315px;
+}
+
+.editCategory input.form-control {
+    margin-left: 210px;
+}
+
+.editCategory .title {
+    width: 79%;
+}
+
+.phantrang b {
+    width:  35px;
+    height:  35px;
+    line-height:  35px;
+}
+
+.phantrang a {
+    width: 35px;
+    height: 35px;
+    line-height:  35px;
+}
+
+.row.listProduct {
+    width: 84%;
+    font-size:  inherit;
+}
+
+.type_display .typeProduct {
+    width: 26%;
+    margin-left: -222px;
+}
+
+.showProduct .type_display {
+    width: 85%;
+}
+
+.showProduct .title {
+    width: 85%;
+}
+
+.showProduct .title {
+}
+
+.contentCategory .content {
+    width: 75%;
+}
+
+.contentCategory .title {
+    width: 78%;
+}
+
+.contentCategory .addCategory {
+    left: 5%;
+    /* float: right; */
+    /* position:  unset; */
+}
+
+.addCategory .location .breadcrumb {
+    margin-left: -7%;
+}   
+}
+@media all and (min-width: 1280px) {
+*{}
+
+.login .title img {
+    margin-left:  45%;
+}
+
+.showProduct .type_display {
+    margin-left:  10px;
+}
+
+.showProduct .title {
+    width:  93%;
+    margin-left: 4px;
+}
+
+.showProduct .addCategory {
+}
+
+.row.listProduct {
+    width: 91%;
+    margin-left: 10px;
+}
+
+.detailsOrder .title {
+    width: 93%;
+}
+
+.detail, .detailPrice {
+    width: 90%;
+}
+
+.bill .title {
+    width: 98%;
+}
+
+.bill .listBill {
+    width: 95%;
+}
+
+.editProduct .title {
+    width:  95%;
+    margin-left: 12px;
+}
+
+.contentEdit {
+    width:  125%;
+    margin-left:  31px;
+    margin-top: 20px;
+}
+
+.addProduct {
+    margin-left:  10%;
+}
+
+.contentCategory .content {
+    width: 88%;
+}
+
+.contentCategory .title {
+    width: 90%;
+}   
+} 
+@media all and (min-width: 1366px) {
+*{}
+
+.userExists {
+    left: 357px;
+}
+
+.userExists {}
+
+.reports {
+    top: -608px;
+}
+
+.dKyAdmin {
+    left: 359px;
+    top: 53px;
+}
+
+/*.reports {
+    top: -631px;
+}*/
+}

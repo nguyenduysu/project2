@@ -1,0 +1,49 @@
+
+/* phone */
+@media all and (min-width: 320px) {
+*{}
+
+.slideBanner {
+    margin-top: 56px;
+}
+
+.banner {
+    display:  none;
+}
+}
+ 
+/* tablet*/
+@media all and (min-width: 600px) {
+    *{}
+}
+ 
+/* tablet and laptop*/
+@media all and (min-width: 770px) {
+*{}
+
+.slideBanner {
+    margin-top: 100px;
+}
+.banner img {
+    width: 100%;
+    margin-top: 15px;
+}
+.banner {
+    display:  block;
+    height: 102px;
+    margin-top: -6px;
+    margin-bottom: 1px;
+}
+.slide{
+    margin-top: 10px;
+}
+}
+ 
+/* laptop */
+@media all and (min-width: 1280px) {
+*{}
+
+.slideBanner {
+    margin-top: 81px;
+}
+}

@@ -1,0 +1,45 @@
+.phantrang div {display:  inline;}
+
+.phantrang a {
+    display: inline-block;
+    width: 45px;
+    height: 35px;
+    line-height: 35px;
+    color: #30a5ff;
+    border: 1px solid #30a5ff;
+    margin-right: 10px;
+    text-decoration:  none;
+}
+
+.phantrang a:hover {
+    background: #30a5ff;
+    color: white;
+}
+
+.phantrang b {
+    width: 45px;
+    height: 35px;
+    border: 1px solid #30a5ff;
+    display:  inline-block;
+    line-height: 35px;
+    margin-right:  10px;
+}
+
+.phantrang b:hover {
+    background: #30a5ff;
+    color: white;
+}
+
+.phantrang {
+    text-align:  center;
+    margin-bottom: 20px;
+}
+
+.phantrang p {
+    display: inline-block;
+}
+
+.kHThi {
+    visibility: hidden;
+    opacity: 0;
+}
