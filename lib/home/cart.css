@@ -1,0 +1,884 @@
+/*phone*/
+@media all and (min-width: 320px) {
+    *{}
+.KHthiXam{
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.4s;
+}
+.add .giotrong {
+    margin-top: 85px;
+    margin-bottom: 24px;
+}
+
+button#plus,button#minus {
+    border:  none;
+}
+
+.btn-group>.btn:first-child:not(:last-child):not(.dropdown-toggle) {
+}
+
+.row.inforChange {
+    /* width: 58%; */
+}
+
+.contentProduct {
+    /* width: 98%; */
+}
+
+button.btn.btn-danger.xacnhan {}
+
+.inforChecked  button.btn.btn-danger.xacnhan {background:  none;color: #197dd2;border: 1px solid #197dd2;margin-left:  24%;margin-bottom: 10px;}
+
+.inforChecked button.btn.btn-danger.xacnhan:hover {
+    background: #197dd2;
+    color: white;
+    transition:  0.2s;
+}
+
+.tensp {
+    /* background:  red; */
+}
+
+.xoa {
+    float:  right;
+    margin-top: -36px;
+    /* margin-left: 155px; */
+}
+
+.inforChecked {
+    /* background:  saddlebrown; */
+    width: 92%;
+    margin-bottom: 20px;
+    background:  #F0F8FF;
+}
+
+.inforChecked h4 {
+    font-weight:  bold;
+}
+
+.inforChecked h4,.inforChecked h5 {
+    font-size: 12px;
+}
+
+.giaProduct {
+    margin-top: 20px;
+}
+
+.listCart .gia {
+    /*width: 88px;*/
+}
+
+.listCart button.nutxoa {
+    float:  right;
+    background:  none;
+    border:  none;
+    border: 1px solid red;
+    width: 30px;
+    padding: 5px;
+    border-radius: 4px;
+}
+
+.listCart button.nutxoa:hover {
+    background:  red;
+    color: white;
+    transition:  0.4s;
+}
+
+.listCart .tensp {
+    width: 69%;
+    padding-top:  5px;
+    padding-bottom:  5px;
+}
+
+.listCart .tensp a {
+    text-decoration:  none;
+}
+
+.quantitySale {
+    width: 32px;
+    margin-left: 10px;
+}
+
+button#plus {
+    width: 30px;
+}
+
+button#plus {
+}
+
+.listCart input#sl_add {
+    width: 33px;
+}
+
+.listCart .anh img {
+    width: 65px;
+    margin-top: 10px;
+}
+
+.listCart .content {border: 1px solid gray;margin-bottom:  10px;padding-left: 12px;width: 100%;float:  left;padding-top:  10px;padding-bottom: 10px;}
+
+b {
+}
+
+b {
+    position: absolute;
+    top: -9px;
+}
+
+.listCart .row.title {
+    background: aliceblue;
+    height:  40px;
+    line-height:  40px;
+    margin-left: -15px;
+    padding-left: 20px;
+    margin-bottom:  10px;
+    width: 109%;
+    font-size: 10px;
+}
+
+.listCart ol.breadcrumb {
+    background:  none;
+}
+
+.listCart {
+    margin-top: 60px;
+    margin-left: 3px;
+    font-size: 12px;
+    margin-bottom: 15px;
+}
+}
+/*tablet*/
+@media all and (min-width: 768px) {
+    *{}
+
+textarea#note {}
+
+textarea#note {
+    display:  block;
+}
+
+.add .giotrong {
+    margin-top: 88px;
+    margin-bottom: 57px;
+}
+
+.listCart .row.title {
+    width: 100%;
+}
+
+button#plus, button#minus {
+    border: 1px solid #cccccc;
+}
+
+.listCart ol.breadcrumb {
+    font-size:  14px;
+}
+
+.listCart {
+    margin-top: 113px;
+}
+
+.listProductBuy {
+}
+
+.listCart .row.title {
+    font-size: 14px;
+}
+
+.quantitySale {
+    width: 100px;
+    position:  absolute;
+    right: 20px;
+    top: 55px;
+}
+
+.listCart .content {
+    font-size: 14px;
+}
+
+.inforChecked {
+    width: 36%;
+    position:  absolute;
+    right: 3px;
+    top: 169px;
+}
+
+.inforChecked h4, .inforChecked h5 {
+    font-size: 14px;
+}
+}
+/*tablet and laptop*/
+@media all and (min-width: 992px) {
+    *{}
+
+.add .giotrong {
+    margin-bottom: 76px;
+}
+
+.inforChecked {
+    top: 169px;
+    width: 30%;
+    right: 55px;
+}
+
+.quantitySale {
+    right: 40px;
+}
+}
+/*laptop*/
+@media all and (min-width: 1145px) {
+    *{}
+
+.add .giotrong {
+    margin-bottom: 76px;
+}
+
+.inforChecked {
+    top: 153px;
+}
+
+.listCart {
+    margin-top: 98px;
+}
+}
+/*laptop*/
+@media all and (min-width: 1200px) {
+    *{}
+}
+@media all and (min-width: 1365px) {
+    *{}
+
+.add .giotrong {
+    margin-bottom: 142px;
+}
+}/*phone*/
+@media all and (min-width: 320px) {
+    *{}
+
+.thanhtoan button.btn.btn-info.dathang {
+    margin-left: 100px;
+}
+
+textarea#note {
+    margin-left:  15px;
+    width: 275px;
+}
+
+textarea#address {
+    margin-left: 15px;
+    margin-top: 10px;
+    width: 275px;
+    margin-bottom: 10px;
+}
+
+.thanhtoan .email {
+    width: 306px;
+    margin-left: 0;
+    margin-top:  10px;
+}
+
+.thanhtoan .sdt {
+    width: 306px;
+}
+
+.thanhtoan input#hoten {margin-left: -8px;margin-bottom:  10px;}
+
+.thanhtoan .tieude {
+    padding: 8px;
+    font-size:  15px;
+    font-weight:  bold;
+    padding-left: 15px;
+}
+
+.thanhtoan {
+    width: 300px;
+    height: 354px;
+    background: #DCDCDC;
+    position:  relative;
+    padding-left: 15px;
+    border-radius:  6px 6px 0 0;
+    margin:  auto;
+}
+.up{
+    transition: 0.4s;
+    top: -335px;
+    opacity: 0;
+    visibility: hidden; 
+}
+.down{
+   transition: 0.4s;
+    top: -7px ;
+    opacity: 1;
+    visibility: visible ; 
+}
+
+.thanhtoan .dong {
+    position:  absolute;
+    right: 26px;
+    top: 4px;
+    color: white;
+    cursor:  pointer;
+    font-size: 20px;
+}
+
+.thanhtoan .vien {
+    background: #C39A42;
+    width: 300px;
+    height: 34px;
+    border-radius: 6px 6px 0 0;
+}
+
+.xam {
+    width: 100%;
+    height: 100%;
+    background: #808080d9;
+    position: fixed;
+    top: 52px;
+    padding-top: 10px;
+    transition: 0.4s;
+}
+
+.container.text-center.empty {
+    margin-top: 37px;
+}
+
+.add .giotrong {
+    margin-top: 85px;
+    margin-bottom: 24px;
+}
+
+button#plus,button#minus {
+    border:  none;
+}
+
+.btn-group>.btn:first-child:not(:last-child):not(.dropdown-toggle) {
+}
+
+.row.inforChange {
+    /* width: 58%; */
+}
+
+.contentProduct {
+    /* width: 98%; */
+}
+
+button.btn.btn-danger.xacnhan {}
+
+.inforChecked  button.btn.btn-danger.xacnhan {background:  none;color: #197dd2;border: 1px solid #197dd2;margin-left:  24%;margin-bottom: 10px;}
+
+.inforChecked button.btn.btn-danger.xacnhan:hover {
+    background: #197dd2;
+    color: white;
+    transition:  0.2s;
+}
+
+.tensp {
+    /* background:  red; */
+}
+
+.xoa {
+    float:  right;
+    margin-top: -36px;
+    /* margin-left: 155px; */
+}
+
+.inforChecked {
+    /* background:  saddlebrown; */
+    width: 92%;
+    margin-bottom: 20px;
+    background:  #F0F8FF;
+}
+
+.inforChecked h4 {
+    font-weight:  bold;
+}
+
+.inforChecked h4,.inforChecked h5 {
+    font-size: 12px;
+}
+
+.giaProduct {
+    margin-top: 20px;
+}
+
+.listCart .gia {
+    /*width: 88px;*/
+}
+
+.listCart button.nutxoa {
+    float:  right;
+    background:  none;
+    border:  none;
+    border: 1px solid red;
+    width: 30px;
+    padding: 5px;
+    border-radius: 4px;
+}
+
+.listCart button.nutxoa:hover {
+    background:  red;
+    color: white;
+    transition:  0.4s;
+}
+
+.listCart .tensp {
+    width: 69%;
+    padding-top:  5px;
+    padding-bottom:  5px;
+}
+
+.listCart .tensp a {
+    text-decoration:  none;
+}
+
+.quantitySale {
+    width: 32px;
+    margin-left: 10px;
+}
+
+button#plus {
+    width: 30px;
+}
+
+button#plus {
+}
+
+.listCart input#sl_add {
+    width: 33px;
+}
+
+.listCart .anh img {
+    width: 65px;
+    margin-top: 10px;
+}
+
+.listCart .content {border: 1px solid gray;margin-bottom:  10px;padding-left: 12px;width: 100%;float:  left;padding-top:  10px;padding-bottom: 10px;}
+
+b {
+}
+
+b {
+    position: absolute;
+    top: -9px;
+}
+
+.listCart .row.title {
+    background: aliceblue;
+    height:  40px;
+    line-height:  40px;
+    margin-left: -15px;
+    padding-left: 20px;
+    margin-bottom:  10px;
+    width: 109%;
+    font-size: 10px;
+}
+
+.listCart ol.breadcrumb {
+    background:  none;
+}
+
+.listCart {
+    margin-top: 60px;
+    margin-left: 3px;
+    font-size: 12px;
+    margin-bottom: 15px;
+}
+}
+/*tablet*/
+@media all and (min-width: 768px) {
+    *{}
+
+.thanhtoan button.btn.btn-info.dathang {
+    margin-left: 140px;
+}
+
+.row.ghichu textarea#note {
+    width: 376px;
+    margin-bottom:  20px;
+}
+
+textarea#address {
+    width: 376px;
+}
+
+.thanhtoan .email {
+    width: 200px;
+    margin-top: 0;
+}
+
+.thanhtoan .sdt {
+    width: 206px;
+}
+
+.thanhtoan .vien {
+    width: 400px;
+}
+
+.thanhtoan {
+    width: 400px;
+}
+
+.xam {
+    padding-top: 57px;
+    transition: 0.4s;
+}
+
+.container.text-center.empty {
+    margin-top: 108px;
+}
+
+.add .giotrong {
+    margin-top: 180px;
+    margin-bottom: 108px;
+}
+
+.listCart .row.title {
+    width: 100%;
+}
+
+button#plus, button#minus {
+    border: 1px solid #cccccc;
+}
+
+.listCart ol.breadcrumb {
+    font-size:  14px;
+}
+
+.listCart {
+    margin-top: 113px;
+    margin-bottom: 70px;
+}
+
+.listProductBuy {
+}
+
+.listCart .row.title {
+    font-size: 14px;
+}
+
+.quantitySale {
+    width: 100px;
+    position:  absolute;
+    right: 20px;
+    top: 55px;
+}
+
+.listCart .content {
+    font-size: 14px;
+}
+
+.inforChecked {
+    width: 36%;
+    position:  absolute;
+    right: 3px;
+    top: 169px;
+}
+
+.inforChecked h4, .inforChecked h5 {
+    font-size: 14px;
+}
+}
+/*tablet and laptop*/
+@media all and (min-width: 992px) {
+    *{}
+
+.add .giotrong {
+    margin-bottom: 127px;
+}
+
+.inforChecked {
+    top: 169px;
+    width: 30%;
+    right: 55px;
+}
+
+.quantitySale {
+    right: 40px;
+}
+}
+/*laptop*/
+@media all and (min-width: 1145px) {
+    *{}
+
+.add .giotrong {/*phone*/
+@media all and (min-width: 320px) {
+    *{}
+
+.add .giotrong {
+    margin-top: 85px;
+    margin-bottom: 24px;
+}
+
+button#plus,button#minus {
+    border:  none;
+}
+
+.btn-group>.btn:first-child:not(:last-child):not(.dropdown-toggle) {
+}
+
+.row.inforChange {
+    /* width: 58%; */
+}
+
+.contentProduct {
+    /* width: 98%; */
+}
+
+button.btn.btn-danger.xacnhan {}
+
+.inforChecked  button.btn.btn-danger.xacnhan {background:  none;color: #197dd2;border: 1px solid #197dd2;margin-left:  24%;margin-bottom: 10px;}
+
+.inforChecked button.btn.btn-danger.xacnhan:hover {
+    background: #197dd2;
+    color: white;
+    transition:  0.2s;
+}
+
+.tensp {
+    /* background:  red; */
+}
+
+.xoa {
+    float:  right;
+    margin-top: -36px;
+    /* margin-left: 155px; */
+}
+
+.inforChecked {
+    /* background:  saddlebrown; */
+    width: 92%;
+    margin-bottom: 20px;
+    background:  #F0F8FF;
+}
+
+.inforChecked h4 {
+    font-weight:  bold;
+}
+
+.inforChecked h4,.inforChecked h5 {
+    font-size: 12px;
+}
+
+.giaProduct {
+    margin-top: 20px;
+}
+
+.listCart .gia {
+    /*width: 88px;*/
+}
+
+.listCart button.nutxoa {
+    float:  right;
+    background:  none;
+    border:  none;
+    border: 1px solid red;
+    width: 30px;
+    padding: 5px;
+    border-radius: 4px;
+}
+
+.listCart button.nutxoa:hover {
+    background:  red;
+    color: white;
+    transition:  0.4s;
+}
+
+.listCart .tensp {
+    width: 69%;
+    padding-top:  5px;
+    padding-bottom:  5px;
+}
+
+.listCart .tensp a {
+    text-decoration:  none;
+}
+
+.quantitySale {
+    width: 32px;
+    margin-left: 10px;
+}
+
+button#plus {
+    width: 30px;
+}
+
+button#plus {
+}
+
+.listCart input#sl_add {
+    width: 33px;
+}
+
+.listCart .anh img {
+    width: 65px;
+    margin-top: 10px;
+}
+
+.listCart .content {border: 1px solid gray;margin-bottom:  10px;padding-left: 12px;width: 100%;float:  left;padding-top:  10px;padding-bottom: 10px;}
+
+b {
+}
+
+b {
+    position: absolute;
+    top: -9px;
+}
+
+.listCart .row.title {
+    background: aliceblue;
+    height:  40px;
+    line-height:  40px;
+    margin-left: -15px;
+    padding-left: 20px;
+    margin-bottom:  10px;
+    width: 109%;
+    font-size: 10px;
+}
+
+.listCart ol.breadcrumb {
+    background:  none;
+}
+
+.listCart {
+    margin-top: 60px;
+    margin-left: 3px;
+    font-size: 12px;
+    margin-bottom: 15px;
+}
+}
+/*tablet*/
+@media all and (min-width: 768px) {
+    *{}
+
+.add .giotrong {
+    margin-top: 88px;
+    margin-bottom: 57px;
+}
+
+.listCart .row.title {
+    width: 100%;
+}
+
+button#plus, button#minus {
+    border: 1px solid #cccccc;
+}
+
+.listCart ol.breadcrumb {
+    font-size:  14px;
+}
+
+.listCart {
+    margin-top: 113px;
+}
+
+.listProductBuy {
+}
+
+.listCart .row.title {
+    font-size: 14px;
+}
+
+.quantitySale {
+    width: 100px;
+    position:  absolute;
+    right: 20px;
+    top: 55px;
+}
+
+.listCart .content {
+    font-size: 14px;
+}
+
+.inforChecked {
+    width: 36%;
+    position:  absolute;
+    right: 3px;
+    top: 169px;
+}
+
+.inforChecked h4, .inforChecked h5 {
+    font-size: 14px;
+}
+}
+/*tablet and laptop*/
+@media all and (min-width: 992px) {
+    *{}
+
+.add .giotrong {
+    margin-bottom: 76px;
+}
+
+.inforChecked {
+    top: 169px;
+    width: 30%;
+    right: 55px;
+}
+
+.quantitySale {
+    right: 40px;
+}
+}
+/*laptop*/
+@media all and (min-width: 1145px) {
+    *{}
+
+.add .giotrong {
+    margin-bottom: 76px;
+}
+
+.inforChecked {
+    top: 153px;
+}
+
+.listCart {
+    margin-top: 98px;
+}
+}
+/*laptop*/
+@media all and (min-width: 1200px) {
+    *{}
+}
+@media all and (min-width: 1365px) {
+    *{}
+
+.add .giotrong {
+    margin-bottom: 142px;
+}
+}
+    margin-bottom: 76px;
+}
+
+.inforChecked {
+    top: 153px;
+}
+
+.listCart {
+    margin-top: 98px;
+}
+}
+/*laptop*/
+@media all and (min-width: 1200px) {
+    *{}
+
+.listCart {
+    margin-bottom: 85px;
+}
+
+.container.text-center.empty {
+    margin-top:  142px;
+}
+}
+@media all and (min-width: 1365px) {
+    *{}
+
+.container.text-center.empty {
+    margin-top: 83px;
+    font-size: 14px;
+    margin-bottom: 107px;
+}
+
+.add .giotrong {
+    margin-bottom: 193px;
+}
+}

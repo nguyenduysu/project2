@@ -1,0 +1,253 @@
+/*phone*/
+@media all and (min-width: 320px) {
+    *{}
+
+.singleProduct {
+    margin-top: 50px;
+}
+
+.productSame {
+    margin-bottom: 15px;
+}
+
+.productSame .title {
+    text-align:  center;
+    font-size:  20px;
+    padding: 12px;
+    border-bottom: 1px solid #8080804d;
+    margin-bottom:  10px;
+}
+
+.singleProduct h2 {
+    text-align:  center;
+    margin-top:  20px;
+    margin-bottom:  10px;
+    font-size:  20px;
+}
+
+.singleProduct .inforProduct ul {padding: 0;padding-left: 5px;}
+
+.singleProduct .inforProduct ul li {
+    list-style:  none;
+    padding-top:  10px;
+    padding-left:  0;
+}
+
+.singleProduct .inforProduct ul li p {
+    display: initial;
+}
+
+.singleProduct .goCart button.btn.btn-info {
+    background:  none;
+    color: #19b410;
+    border:  1px solid #19b410;
+    padding: 5px 28px;
+}
+
+.singleProduct .goCart button.btn.btn-info:hover {
+    background:  #19b410;
+    color: white;
+}
+
+.singleProduct .goCart {
+    text-align:  center;
+}
+
+.singleProduct .updateCart button.btn.btn-danger {
+    background:  none;
+    color:  #5BC0DE;
+    border:  1px solid #5BC0DE;
+}
+
+.singleProduct .updateCart button.btn.btn-danger:hover {
+    background:  #5bc0de;
+    color: white;
+}
+
+.singleProduct .updateCart {
+    text-align:  center;
+    margin-top:  15px;
+    margin-bottom:  15px;
+}
+
+.singleProduct .content .quantitySale input {
+    width: 50px;
+}
+
+.singleProduct .content .quantitySale {
+    text-align:  center;
+}
+
+.singleProduct .content .prices .priceSale {
+    color:  red;
+    font-size: 19px;
+}
+
+.singleProduct .content .prices .priceRoot {
+    text-decoration:  line-through;
+    font-size:  12px;
+    color:  gray;
+}
+
+.singleProduct .content .prices {
+    text-align:  center;
+    margin-bottom:  10px;
+    margin-bottom: 38px;
+}
+
+.singleProduct .content .name {
+    width: 100%;
+    padding:  5px 10px;
+    font-size: 18px;
+    text-align:  center;
+}
+
+.singleProduct .content a {
+    text-decoration:  none;
+}
+
+.singleProduct .avatar img {
+    width: 60%;
+    margin-left: 70px;
+}
+
+.location ol.breadcrumb {
+    position: relative;
+    top: -20px;
+    background:  none;
+    margin-bottom: -24px;
+}
+}
+/*tablet*/
+@media all and (min-width: 768px) {
+    *{}
+
+.singleProduct .content .name {
+    padding-top:  0;
+}
+
+.singleProduct h2 {
+    margin-top:  0;
+}
+
+.singleProduct .content .prices {
+    margin-left: 20px;
+}
+
+.singleProduct .content .prices .priceSale {
+    float:  left;
+    margin-left:  10px;
+}
+
+.singleProduct .content .prices .priceRoot {
+    float:  left;
+    padding-top: 5px;
+}
+
+.singleProduct {
+    margin-top: 100px;
+}
+}
+/*tablet and laptop*/
+@media all and (min-width: 992px) {
+    *{}
+
+.singleProduct {
+    margin-top: 102px;
+}
+
+.singleProduct .avatar img {
+    margin-left: 89px;
+}
+
+.singleProduct .goCart {
+    float:  left;
+    margin-top: 16px;
+    margin-left: 10px;
+}
+
+.singleProduct .updateCart {
+    float:  left;
+}
+
+.singleProduct .content .prices {
+    margin-left: 60px;
+}
+}
+/*laptop*/
+@media all and (min-width: 1145px) {
+    *{}
+
+.singleProduct .avatar img {
+    margin-left: 134px;
+}
+
+.location ol.breadcrumb {
+    position: unset;
+    margin-bottom:  0;
+}
+}
+/*laptop*/
+@media all and (min-width: 1200px) {
+    *{}
+
+.singleProduct .content .quantitySale {
+    margin-top: 47px;
+}
+
+.singleProduct .goCart {
+    margin-top: 45px;
+}
+
+.singleProduct .updateCart {
+    margin-left: 38px;
+    margin-top: 45px;
+}
+
+.singleProduct .content .prices {
+    margin-left: 90px;
+}
+}
+
+.col-xs-8.col-sm-8.col-md-8.col-lg-8.cmtProduct {
+    background: #F3F3F3;
+    border: 1px solid #e3dcdc;
+    margin-bottom: 50px;
+}
+
+.cmtProduct .title {
+    font-size: 18px;
+    padding: 10px;
+    border-bottom: 1px solid #e3e3e3;
+}
+
+.itemCmt {
+    padding: 10px;
+    line-height: 30px;
+    /* background: #FFF; */
+    border-bottom: 1px solid #dfdfda;
+}
+
+.loadMorecmt.text-center {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.txtarea{
+    border-right: #646464 ;
+    border-top: #646464;
+    border-left: #646464;
+    border-bottom: #646464;
+    width:100%;
+    background: #ffffcc;
+}
+
+.qtvCmt {
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: normal;
+    font-size: 12px;
+    background: #d0011b;
+    padding: 1px 6px;
+    margin-left: 8px;
+}
